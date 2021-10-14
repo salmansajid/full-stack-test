@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "test_vehicle",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "misc": {
+    "rowsPerPage": 10,
+    "dbLogging": false
+  }
+}
